@@ -36,8 +36,6 @@
 # policies, either expressed or implied, of Vincent Driessen.
 #
 
-init
-
 init() {
 require_git_repo
 require_gitflow_initialized
@@ -1144,3 +1142,4 @@ cmd_log() {
 	git log "$BRANCH" ^"$ORIGIN/$DEVELOP_BRANCH" $@
 }
 
+init
